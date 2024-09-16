@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Cristhoper Socalay and I'm a peru, from ....</h2>
+<h2 align="left">Hi 👋! Mi nombre es Cristhoper Socalay y estoy encaminado en el camino de la programacion, Resido en Peru</h2>
 
 ###
 

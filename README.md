@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/25bbb7ae-2ac2-4dcd-92e1-9e21f2e324f2)<h2 align="left">Hi 👋! Mi nombre es Cristhoper Socalay y estoy encaminado en el camino de la programacion, Resido en Peru</h2>
+<h2 align="left">Hi 👋! Mi nombre es Cristhoper Socalay y estoy encaminado en el camino de la programacion, Resido en Peru</h2>
 
 ###
 

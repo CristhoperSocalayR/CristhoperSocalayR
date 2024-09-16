@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! Mi nombre es Cristhoper Socalay y estoy encaminado en el camino de la programacion, Resido en Peru</h2>
+![image](https://github.com/user-attachments/assets/25bbb7ae-2ac2-4dcd-92e1-9e21f2e324f2)<h2 align="left">Hi 👋! Mi nombre es Cristhoper Socalay y estoy encaminado en el camino de la programacion, Resido en Peru</h2>
 
 ###
 
@@ -9,8 +9,7 @@
 
 ###
 
-<img align="right" height="150" src="![image](https://github.com/user-attachments/assets/56d17f45-b1a1-42dd-b7d8-06f9c9eb1f58)
-"  />
+<img align="right" height="150" src="[https://user-images.githubusercontent.com/32809211/87786036-e7cdfa80-c856-11ea-9190-f4106d1fbc43.gif](https://giphy.com/embed/bGgsc5mWoryfgKBx1u)" />
 ###
 
 <div align="left">

@@ -229,11 +229,7 @@ CSS             42 mins      █░░░░░░░░░░░░░░░░
 ## 🐍 Snake — Mis Commits Devorando el Calendario
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CristhoperSocalayR/CristhoperSocalayR/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CristhoperSocalayR/CristhoperSocalayR/output/github-snake.svg">
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/CristhoperSocalayR/CristhoperSocalayR/output/github-snake-dark.svg" width="100%"/>
-  </picture>
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/CristhoperSocalayR/CristhoperSocalayR/output/snake.svg" width="100%"/>
 </div>
 
 ---
@@ -241,54 +237,8 @@ CSS             42 mins      █░░░░░░░░░░░░░░░░
 ## 🟡 Pacman — Comiendo Mis Contribuciones
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CristhoperSocalayR/CristhoperSocalayR/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CristhoperSocalayR/CristhoperSocalayR/output/pacman-contribution-graph.svg">
-    <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/CristhoperSocalayR/CristhoperSocalayR/output/pacman-contribution-graph-dark.svg" width="100%"/>
-  </picture>
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/CristhoperSocalayR/CristhoperSocalayR/output/pacman-contribution-graph.svg" width="100%"/>
 </div>
-
-<details>
-<summary>⚙️ <b>Workflow para activar Snake & Pacman</b> — haz clic para ver</summary>
-
-<br>
-
-Crea el archivo `.github/workflows/animations.yml` en tu repo de perfil:
-
-```yaml
-name: 🐍🟡 Generate Snake & Pacman Animations
-on:
-  schedule:
-    - cron: "0 */12 * * *"   # cada 12 horas
-  workflow_dispatch:
-  push:
-    branches: [main]
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Generate Snake & Pacman SVGs
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/pacman-contribution-graph.svg?action=pacman
-            dist/pacman-contribution-graph-dark.svg?action=pacman&palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
 
 ---
 
